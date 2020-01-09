@@ -17,6 +17,6 @@ let package = Package(
         .target(
             name: "TZImagePickerController",
             path: "TZImagePickerController",
-            dependencies: [])
+            dependencies: ["FLAnimatedImage", "TZImagePickerController"])
     ]
 )
