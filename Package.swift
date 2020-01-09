@@ -16,7 +16,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "TZImagePickerController",
-            path: "TZImagePickerController",
-            dependencies: ["FLAnimatedImage", "TZImagePickerController"])
+            dependencies: ["FLAnimatedImage", "TZImagePickerController"],
+            path: "TZImagePickerController")
     ]
 )
